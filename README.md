@@ -15,3 +15,4 @@ extension ViewController: CLLocationManagerDelegate {
     }
 }
 ```
+If you want to know the current weather in a city, you just need to enter the name of this city.
