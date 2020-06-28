@@ -32,6 +32,9 @@ func fetchCurrentWeather(forRequestType requestType: RequestType) {
         performRequest(withURLString: urlString)
 }
  ```
+ 
  You can also see the current temperature and _feels like_ temperature in a dark theme.
+ 
+ <img width="300" alt="Screenshot 2020-06-28 at 15 00 00" src="https://user-images.githubusercontent.com/55511062/85948327-9e257a80-b950-11ea-9686-32c9484e12fb.png">
  
  
