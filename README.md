@@ -16,6 +16,7 @@ extension ViewController: CLLocationManagerDelegate {
 }
 ```
 If you want to know the current weather in any city, you just need to enter the name of this city.
+
 <img width="300" alt="Screenshot 2020-06-28 at 14 49 11" src="https://user-images.githubusercontent.com/55511062/85948050-bf856700-b94e-11ea-9866-0e77fb0f0890.png">
 ```swift
     func fetchCurrentWeather(forRequestType requestType: RequestType) {
