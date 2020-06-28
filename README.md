@@ -15,7 +15,7 @@ extension ViewController: CLLocationManagerDelegate {
     }
 }
 ```
-If you want to know the current weather in any city, you just need to enter the name of this city.
+If you want to know the current weather in any city, you just need to enter the name of this city and perform __API__ request using _Search_ button.
 
 <img width="300" alt="Screenshot 2020-06-28 at 14 49 11" src="https://user-images.githubusercontent.com/55511062/85948050-bf856700-b94e-11ea-9866-0e77fb0f0890.png">
 
@@ -32,6 +32,6 @@ func fetchCurrentWeather(forRequestType requestType: RequestType) {
         performRequest(withURLString: urlString)
 }
  ```
- You can also see the current temperature and "feels like" temperature in a dark theme.
+ You can also see the current temperature and _feels like_ temperature in a dark theme.
  
  
