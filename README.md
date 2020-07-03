@@ -1,5 +1,5 @@
 # Sunny
-## An application to display the current weather in a given city
+## An application to display the current weather in a given city.
 
 The __MVC__ architecture is applied, the __Delegate__ pattern is used, error handling with the __Error__ protocol. __Auto Layout__ interface. Request data from the __API__ using __URLSession__, processing a __JSON__ response using the __Codable__ protocol.
 
